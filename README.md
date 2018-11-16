@@ -76,11 +76,19 @@ station):
 
 **Day 2 transport data**
 
-09:30-11:00 An introduction to point (Stats19) data
+09:30-11:00 Stream 1: An introduction to point (Stats19) data
 
   - Point data: Stats19
   - Spatial and temporal subsetting
   - Aggregation
+
+09:30-11:00 Stream 2: Recap of day
+
+Slow demo of:
+
+  - Set-up
+  - Subsetting
+  - Dplyr and ggplot2
 
 11:15-12:30 Desire lines and routing
 
@@ -92,14 +100,15 @@ station):
 
 13:30-15:00 Road traffic data
 
-  - Traffic data introduction (Josh Manning)
+  - Traffic data introduction (Josh Manning and Ivo)
   - Temporal analysis
   - Spatial analysis
 
 15:15-16:30 Practical application
 
-  - Working on real datasets such as flooding or traffic data, or
-    improving specific skills such as visualisation
+  - Stream 1: Consolidation of exercises
+  - Stream 2: Working on real datasets such as flooding or traffic data,
+    or improving specific skills such as visualisation
 
 ## Prerequisites
 
@@ -215,6 +224,23 @@ plot(line_lnd, add = TRUE, lwd = 5, col = "red")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+## Shortcut keys:
+
+``` r
+# Useful shortkeys --------------------------------------------------------
+
+# Tab-Autocomplete
+# Alt-Up/Down: move current line (shift copies it)
+# Ctl-Shift-C: Comment line
+# Ctl-Shift-R: Add section
+# Ctl-Shift-m %>% %>% %>% %>% %>% %>% %>% %>% %>% 
+# Ct1-1/2 put cursor in source/console
+# Ctl-Alt-T Execute as system command, e.g.:
+# cp -Rv * /tmp
+# Ctl-Alt-Down: duplicate cursor
+# Alt-Shift-K: show autocomplete keys!
+```
 
 <!-- Note: you can test all of these things work by running the following command: -->
 
